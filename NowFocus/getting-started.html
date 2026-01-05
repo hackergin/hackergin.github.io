@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NowFocus Getting Started Guide">
+    <title>NowFocus - Getting Started</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f7;
+        }
+
+        .container {
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            border-radius: 12px;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 40px rgba(102, 126, 234, 0.3);
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.3em;
+            opacity: 0.95;
+            font-weight: 300;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: opacity 0.2s;
+        }
+
+        .back-link:hover {
+            opacity: 0.9;
+        }
+
+        .content {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #667eea;
+            font-size: 2em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        h3 {
+            color: #333;
+            font-size: 1.5em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        .setup-steps {
+            counter-reset: step-counter;
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .setup-steps li {
+            counter-increment: step-counter;
+            margin-bottom: 25px;
+            padding-left: 60px;
+            position: relative;
+        }
+
+        .setup-steps li::before {
+            content: counter(step-counter);
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .setup-steps li strong {
+            display: block;
+            color: #667eea;
+            margin-bottom: 5px;
+            font-size: 1.1em;
+        }
+
+        code {
+            background: #f4f4f4;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-family: 'Monaco', 'Courier New', monospace;
+            font-size: 0.9em;
+            color: #e83e8c;
+        }
+
+        .links {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+        }
+
+        .links a {
+            color: #667eea;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .links a:hover {
+            color: #764ba2;
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            .content {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to Home</a>
+
+        <header>
+            <h1>Getting Started</h1>
+            <p>Set up NowFocus in minutes</p>
+        </header>
+
+        <div class="content">
+            <h2>🚀 Getting Started</h2>
+
+            <h3>Mac Setup</h3>
+            <ol class="setup-steps">
+                <li>
+                    <strong>Create Notes Folder</strong>
+                    Open the Notes app and create a new folder named <code>NowFocus Work Plan</code>
+                </li>
+                <li>
+                    <strong>Create Weekly Plan</strong>
+                    Create a note with the format: <code>20251229-20260104 周计划</code> (YYYYMMDD-YYYYMMDD)
+                </li>
+                <li>
+                    <strong>Add Your Schedule</strong>
+                    Use this format in your note:<br>
+                    <code>10:00-12:00 Development work</code><br>
+                    <code>14:00-15:00 Team meeting</code>
+                </li>
+                <li>
+                    <strong>Launch NowFocus</strong>
+                    The app appears in your menu bar. Click the icon to see your tasks.
+                </li>
+                <li>
+                    <strong>Grant Permissions</strong>
+                    When prompted, allow NowFocus to access Notes in System Preferences → Privacy & Security → Automation
+                </li>
+            </ol>
+
+            <h3>iOS Setup</h3>
+            <ol class="setup-steps">
+                <li>
+                    <strong>Open NowFocus App</strong>
+                    Launch the app on your iPhone or iPad
+                </li>
+                <li>
+                    <strong>Sync Data</strong>
+                    Your tasks will automatically sync from Mac via iCloud
+                </li>
+                <li>
+                    <strong>Add Widgets</strong>
+                    Long press on Home Screen → Add Widget → NowFocus
+                </li>
+                <li>
+                    <strong>Enable Live Activities</strong>
+                    Live Activities appear automatically on your Lock Screen and Dynamic Island
+                </li>
+            </ol>
+        </div>
+
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="format-guide.html">Format Guide</a>
+            <a href="faq.html">FAQ</a>
+            <a href="mailto:jinfeng1995@gmail.com">Contact</a>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 NowFocus. Made with focus for ADHD users.</p>
+        </footer>
+    </div>
+</body>
+</html>
