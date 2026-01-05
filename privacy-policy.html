@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NowFocus - Privacy Policy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f7;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 600;
+            color: #1d1d1f;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #86868b;
+            font-size: 14px;
+        }
+
+        .content {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            font-size: 24px;
+            font-weight: 600;
+            color: #1d1d1f;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f5f5f7;
+        }
+
+        h2:first-child {
+            margin-top: 0;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #515154;
+        }
+
+        ul {
+            margin-bottom: 15px;
+            padding-left: 30px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            color: #515154;
+        }
+
+        .highlight {
+            background: #f5f5f7;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #007aff;
+            margin: 20px 0;
+        }
+
+        .contact {
+            background: #f5f5f7;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .contact a {
+            color: #007aff;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            color: #86868b;
+            font-size: 14px;
+        }
+
+        .lang-switch {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .lang-switch button {
+            background: white;
+            border: 1px solid #d2d2d7;
+            padding: 8px 20px;
+            margin: 0 5px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.2s;
+        }
+
+        .lang-switch button:hover {
+            background: #f5f5f7;
+        }
+
+        .lang-switch button.active {
+            background: #007aff;
+            color: white;
+            border-color: #007aff;
+        }
+
+        .lang-content {
+            display: none;
+        }
+
+        .lang-content.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">✓</div>
+            <h1>NowFocus</h1>
+            <p class="subtitle">Privacy Policy</p>
+        </header>
+
+        <div class="lang-switch">
+            <button onclick="switchLang('en')" class="active" id="btn-en">English</button>
+            <button onclick="switchLang('zh')" id="btn-zh">中文</button>
+        </div>
+
+        <!-- English Version -->
+        <div class="content lang-content active" id="content-en">
+            <h2>Overview</h2>
+            <p>NowFocus is a productivity tool designed to help users manage their tasks and schedules. We are committed to protecting your privacy and being transparent about how our app works.</p>
+
+            <div class="highlight">
+                <strong>Key Privacy Principle:</strong> NowFocus does not collect, store, or transmit any of your personal data to external servers. All your information stays on your devices.
+            </div>
+
+            <h2>Data Collection</h2>
+            <p><strong>We do NOT collect any personal information.</strong></p>
+            <ul>
+                <li>No user accounts or registration required</li>
+                <li>No analytics or tracking</li>
+                <li>No advertising or third-party services</li>
+                <li>No network connections to our servers</li>
+            </ul>
+
+            <h2>Notes App Access</h2>
+            <p>NowFocus requires access to your macOS Notes app to read your task schedules. Here's what you need to know:</p>
+            <ul>
+                <li><strong>What we access:</strong> Only the specific folder you designate named "NowFocus Work Plan"</li>
+                <li><strong>What we do:</strong> Read task schedules to display current and upcoming tasks</li>
+                <li><strong>What we DON'T do:</strong>
+                    <ul>
+                        <li>We do not modify or delete any of your notes</li>
+                        <li>We do not access notes outside the designated folder</li>
+                        <li>We do not upload or transmit your notes anywhere</li>
+                    </ul>
+                </li>
+                <li><strong>Your control:</strong> You can grant or revoke access at any time through System Preferences → Privacy & Security → Automation</li>
+            </ul>
+
+            <h2>iCloud Synchronization</h2>
+            <p>NowFocus uses Apple's iCloud Key-Value Storage to sync task data between your Mac and iOS devices:</p>
+            <ul>
+                <li>Data is stored in your personal iCloud account</li>
+                <li>We do not have access to your iCloud data</li>
+                <li>iCloud sync is managed by Apple's secure infrastructure</li>
+                <li>You can disable iCloud sync at any time through System Preferences</li>
+            </ul>
+
+            <h2>Local Data Storage</h2>
+            <p>NowFocus stores the following data locally on your device:</p>
+            <ul>
+                <li>Current task information parsed from your Notes</li>
+                <li>User preferences and settings</li>
+                <li>App state information</li>
+            </ul>
+            <p>This data is stored in the app's sandboxed container and is not accessible to other applications.</p>
+
+            <h2>Permissions</h2>
+            <p>NowFocus requests the following system permissions:</p>
+            <ul>
+                <li><strong>Automation (Apple Events):</strong> Required to read your Notes app</li>
+                <li><strong>Notifications:</strong> To send task reminders (optional, you can disable this)</li>
+            </ul>
+            <p>All permissions are requested with clear explanations, and you have full control over granting or revoking them.</p>
+
+            <h2>App Sandbox</h2>
+            <p>NowFocus runs in Apple's App Sandbox, which provides an additional layer of security:</p>
+            <ul>
+                <li>The app can only access files and resources you explicitly authorize</li>
+                <li>All system permissions are controlled by macOS</li>
+                <li>The app cannot access your other applications or system data</li>
+            </ul>
+
+            <h2>Children's Privacy</h2>
+            <p>NowFocus does not knowingly collect any information from children. The app is designed for general productivity use and does not target children specifically.</p>
+
+            <h2>Third-Party Services</h2>
+            <p>NowFocus does not integrate with any third-party services, analytics platforms, or advertising networks.</p>
+
+            <h2>Data Security</h2>
+            <p>We take data security seriously:</p>
+            <ul>
+                <li>All data remains on your local device or in your personal iCloud account</li>
+                <li>The app uses Apple's secure APIs and frameworks</li>
+                <li>The app is sandboxed and uses Hardened Runtime for additional security</li>
+                <li>We do not have access to any of your data</li>
+            </ul>
+
+            <h2>Changes to This Policy</h2>
+            <p>We may update this privacy policy from time to time. Any changes will be posted on this page with an updated revision date. We encourage you to review this policy periodically.</p>
+
+            <h2>Your Rights</h2>
+            <p>Since we do not collect any personal data, there is no data to access, modify, or delete on our servers. All your data is stored locally on your devices and in your iCloud account, which you have full control over.</p>
+
+            <div class="contact">
+                <h2>Contact Us</h2>
+                <p>If you have any questions or concerns about this privacy policy or NowFocus's privacy practices, please contact us:</p>
+                <p><strong>Email:</strong> <a href="mailto:support@nowfocus.app">support@nowfocus.app</a></p>
+            </div>
+
+            <footer>
+                <p><strong>Last Updated:</strong> January 5, 2026</p>
+                <p>NowFocus © 2026. All rights reserved.</p>
+            </footer>
+        </div>
+
+        <!-- Chinese Version -->
+        <div class="content lang-content" id="content-zh">
+            <h2>概述</h2>
+            <p>NowFocus 是一款旨在帮助用户管理任务和日程的生产力工具。我们致力于保护您的隐私，并对应用的工作方式保持透明。</p>
+
+            <div class="highlight">
+                <strong>核心隐私原则：</strong>NowFocus 不会收集、存储或向外部服务器传输您的任何个人数据。所有信息都保留在您的设备上。
+            </div>
+
+            <h2>数据收集</h2>
+            <p><strong>我们不收集任何个人信息。</strong></p>
+            <ul>
+                <li>无需用户账号或注册</li>
+                <li>无分析或跟踪</li>
+                <li>无广告或第三方服务</li>
+                <li>不与我们的服务器建立网络连接</li>
+            </ul>
+
+            <h2>备忘录访问</h2>
+            <p>NowFocus 需要访问您的 macOS 备忘录应用以读取任务安排。以下是您需要了解的：</p>
+            <ul>
+                <li><strong>我们访问什么：</strong>仅访问您指定的名为"NowFocus Work Plan"的特定文件夹</li>
+                <li><strong>我们做什么：</strong>读取任务安排以显示当前和即将进行的任务</li>
+                <li><strong>我们不做什么：</strong>
+                    <ul>
+                        <li>我们不修改或删除您的任何笔记</li>
+                        <li>我们不访问指定文件夹之外的笔记</li>
+                        <li>我们不上传或传输您的笔记到任何地方</li>
+                    </ul>
+                </li>
+                <li><strong>您的控制权：</strong>您可以随时通过系统设置 → 隐私与安全性 → 自动化来授予或撤销访问权限</li>
+            </ul>
+
+            <h2>iCloud 同步</h2>
+            <p>NowFocus 使用 Apple 的 iCloud 键值存储在您的 Mac 和 iOS 设备之间同步任务数据：</p>
+            <ul>
+                <li>数据存储在您的个人 iCloud 账户中</li>
+                <li>我们无法访问您的 iCloud 数据</li>
+                <li>iCloud 同步由 Apple 的安全基础设施管理</li>
+                <li>您可以随时通过系统设置禁用 iCloud 同步</li>
+            </ul>
+
+            <h2>本地数据存储</h2>
+            <p>NowFocus 在您的设备上本地存储以下数据：</p>
+            <ul>
+                <li>从您的备忘录中解析的当前任务信息</li>
+                <li>用户偏好和设置</li>
+                <li>应用状态信息</li>
+            </ul>
+            <p>这些数据存储在应用的沙盒容器中，其他应用无法访问。</p>
+
+            <h2>权限</h2>
+            <p>NowFocus 请求以下系统权限：</p>
+            <ul>
+                <li><strong>自动化（Apple Events）：</strong>用于读取您的备忘录应用</li>
+                <li><strong>通知：</strong>用于发送任务提醒（可选，您可以禁用）</li>
+            </ul>
+            <p>所有权限请求都会提供清晰的说明，您可以完全控制授予或撤销它们。</p>
+
+            <h2>应用沙盒</h2>
+            <p>NowFocus 在 Apple 的应用沙盒中运行，提供额外的安全保护层：</p>
+            <ul>
+                <li>应用只能访问您明确授权的文件和资源</li>
+                <li>所有系统权限都由 macOS 控制</li>
+                <li>应用无法访问您的其他应用或系统数据</li>
+            </ul>
+
+            <h2>儿童隐私</h2>
+            <p>NowFocus 不会故意收集儿童的任何信息。该应用专为一般生产力使用而设计，不专门针对儿童。</p>
+
+            <h2>第三方服务</h2>
+            <p>NowFocus 不集成任何第三方服务、分析平台或广告网络。</p>
+
+            <h2>数据安全</h2>
+            <p>我们非常重视数据安全：</p>
+            <ul>
+                <li>所有数据都保留在您的本地设备或个人 iCloud 账户中</li>
+                <li>应用使用 Apple 的安全 API 和框架</li>
+                <li>应用使用沙盒和加固运行时以提供额外安全性</li>
+                <li>我们无法访问您的任何数据</li>
+            </ul>
+
+            <h2>政策变更</h2>
+            <p>我们可能会不时更新此隐私政策。任何更改都会发布在此页面上，并更新修订日期。我们鼓励您定期查看此政策。</p>
+
+            <h2>您的权利</h2>
+            <p>由于我们不收集任何个人数据，因此我们的服务器上没有数据可供访问、修改或删除。您的所有数据都存储在您的设备本地和 iCloud 账户中，您拥有完全控制权。</p>
+
+            <div class="contact">
+                <h2>联系我们</h2>
+                <p>如果您对此隐私政策或 NowFocus 的隐私做法有任何疑问或顾虑，请联系我们：</p>
+                <p><strong>电子邮件：</strong> <a href="mailto:support@nowfocus.app">support@nowfocus.app</a></p>
+            </div>
+
+            <footer>
+                <p><strong>最后更新：</strong>2026 年 1 月 5 日</p>
+                <p>NowFocus © 2026. 保留所有权利。</p>
+            </footer>
+        </div>
+    </div>
+
+    <script>
+        function switchLang(lang) {
+            // Hide all content
+            document.querySelectorAll('.lang-content').forEach(el => {
+                el.classList.remove('active');
+            });
+
+            // Remove active class from all buttons
+            document.querySelectorAll('.lang-switch button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+
+            // Show selected content
+            document.getElementById('content-' + lang).classList.add('active');
+            document.getElementById('btn-' + lang).classList.add('active');
+        }
+    </script>
+</body>
+</html>
